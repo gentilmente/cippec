@@ -1,20 +1,470 @@
 [
-    {
-      "id": "1",
-      "name": "carlos",
-      "title": "programador",
-      "bio" : "sasarasa"
-    },
-    {
-      "id": "2",
-      "name" : "juana",
-      "title" : "doctora",
-      "bio" : "aquí y allá tal cosa y tal otra"
-    },
-    {
-      "id": "3",
-      "name": "carlitos",
-      "title": "vago",
-      "bio": "nada por aquínada por allá"
-    }
+  {
+    "id": 1,
+    "name": "Agustina Harriague",
+    "title": "",
+    "bio": "Mi nombre es Agustina Harriague, soy psicopedagoga y estoy cursando la maestría en educación en la Universidad de San Andrés. Estoy involucrada activamente en el campo de la educación desde que terminé el colegio en el 2006. Actualmente trabajo en Proyecto Educar 2050 como coordinadora de programas. Además, soy parte de \"Dale!\", una propuesta para enseñar a leer y escribir a niños en contextos de pobreza que no aprendieron al ritmo de sus pares. Anteriormente, me desempeñé en varias organizaciones sociales y colegios, Educar y Crecer, Colegio Santo Domingo Savio, Colegio Los Robles, entre otros."
+  },
+  {
+    "id": 2,
+    "name": "Alberto Vicente Florio",
+    "title": "",
+    "bio": "Tengo 40 años dedicados a la educación secundaria en el nivel educativo oficial. Fui profesor en una escuela técnica de la ciudad de Lanús y en una secundaria, por mi trabajo gremial (participé en la fundación de la CTERA y fui Secretario General de AESBA (Agremiación de educadores  secundarios de la Provincia de Buenos Aires) en 1976 antes del golpe militar fui separado de la escuela media Nº 2 de la Lanús, se me aplicó la ley de prescindibilidad. Llegada la democracia formé un equipo de educación no formal llamado “cátedra abierta”, con un proyecto de educación en cárceles e institutos de detención de menores. Conjuntamente trabajé como docente y asesor en el Senado dela Nación. En este tiempo, comienzo con la creación de las escuelas secundarias en las U.P. de la provincia de Bs As. En 1999 estoy a cargo de Educación en el Consejo Nacional de Niñez, adolescencia y familia. Sintetizando desde 1983 a la fecha trabajé como educador(a veces funcionario) en contextos de privación de la libertad y en barrios con vulnerabilidad social."
+  },
+  {
+    "id": 3,
+    "name": "Alejandra Scialabba",
+    "title": "",
+    "bio": "Mi nombre es Alejandra Scialabba y soy Licenciada en Ciencias de la Educación (UBA) y Magister en Gestión y Administración de la Educación (UDESA). En el último tiempo me he orientado hacia la administración de Organizaciones sin fines de Lucro y Responsabilidad Social y Sustentabilidad Empresaria (también UDESA) ya que me desempeño hace 7 años como Directora Ejecutiva de la Fundación Torneos, desarrollando tareas de diseño, planificación y evaluación de programas, recaudación de fondos y coordinación de voluntarios."
+  },
+  {
+    "id": 4,
+    "name": "Alejandro Londinsky",
+    "title": "",
+    "bio": "Estudie electrónica, Kinesiología, postgrado en Turismo rural, teatro, baile, huerta orgánica, planté árboles, tengo dos hijos y escribí un libro, para darme cuenta, a los 50 años, que siento pasión por innovar, crear, desarrollar, inventar, pensar y sentir de una manera distinta las mismas cosas que hacemos a diario."
+  },
+  {
+    "id": 5,
+    "name": "Alejandro Nadra",
+    "title": "",
+    "bio": "El Dr. Alejandro Nadra es investigador del Consejo Nacional de Investigaciones Científicas y Técnicas y profesor en la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires, donde codirige el Laboratorio de Bioquímica Estructural. Se graduó en Biología (2001) y se doctoró en Química (2005). Realizó postdoctorados en modelado molecular y en biología de sistemas, investigando en Buenos Aires, Río de Janeiro, Roma y Barcelona. Ha sido premiado en encuentros científicos, de innovación y en arte y ciencia. Sus experiencias con equipos de estudiantes y trabajo interdisciplinario lo han motivado a promover instancias formativas no-tradicionales, interdisciplinarias, trans-generacionales y centradas en proyectos. Convencido del potencial de las tecnologías abiertas y la pasión de los estudiantes como herramientas transformadoras y articuladoras entre la academia y la sociedad, ha co-fundadoTECNOx, desde donde pretende cristalizar sus experiencias, enriquecerlas con las de otros miembros de la comunidad y potenciarlas en Latinoamérica."
+  },
+  {
+    "id": 6,
+    "name": "Andrés Ignacio Aguerre Herrera",
+    "title": "",
+    "bio": "Nací el 8 de junio de 1970 en la ciudad de Montevideo (Uruguay). Cursé mis estudios primarios y secundarios en el Colegio del Salvador (Buenos Aires). Ingresé a la Compañía de Jesús (Jesuitas) el 7 de diciembre de 1987. Estudié Literatura, Humanidades y Filosofía en el Colegio Máximo de San Miguel, el período (1990-1993). Tuve trabajos pastorales en algunos ámbitos populares en la zona de San Miguel. Realicé una experiencia de Magisterio y tutoría en el Colegio Javier de Guayaquil (Ecuador) entre los años 1994-1996. Estudié Teología en el Colegio Máximo de San Miguel (1997-2000). Fui ordenado sacerdote el 28 de octubre de 2000. Finalicé la Licenciatura en Gestión Educativa (CAECE) entre los años 2000 y 2002. Durante ese período me desempeñé como Administrador del Colegio del Salvador. En 2003 fui traslado a trabajar pastoralmente en el Colegio de la Inmaculada (Santa Fe). En el 2004 fui nombrado Rector del Colegio del Salvador (Buenos Aires) hasta el año 2010. Durante varios años fui Vice Presidente de la Red Argentino Uruguayo de Colegios Ignacianos (RAUCI) y desde el 2010 hasta el 2015 fui presidente de la misma. Me desempeñé también como vice presidente de la Federación Latinoamericana de Colegios de la Compañía de Jesús (FLACSI). Actualmente me desempeño en la Curia Provincial Jesuita y curso también la Maestría en Políticas Educativas en la Universidad Di Tella."
+  },
+  {
+    "id": 7,
+    "name": "Ariel Leon",
+    "title": "",
+    "bio": "Mi nombre es Ariel Leon y soy profesor de Educación Física recibido en el Instituto Romero Brest. También cursé la Licenciatura en Gestión Institucional en la Universidad de San Martín. En casi 20 años de experiencia profesional, me desempeñé primero como profesor y luego como coordinador en clubes y colegios, tanto del ámbito público como privado. Tuve la posibilidad de vivir y trabajar como docente en Estados Unidos e Inglaterra, lo que permitió conocer distintas maneras de ejercer la profesión. Dirijo desde hace 7 años Kapawa Camp, un emprendimiento vinculado a la educación no formal en donde se desarrollan campamentos y actividades recreativas para niños de 5 a 18 años."
+  },
+  {
+    "id": 8,
+    "name": "Ariela Lijavetzky",
+    "title": "",
+    "bio": "Soy Ariela Lijavetzky, coordinadora de proyectos en el área de Jóvenes de Ashoka Argentina y directora de Educación No Formal en el club sociodeportivo Macabi. Amante del juego y la recreación en la vida cotidiana, he sido también maestra jardinera, profesora de danzas y líder de actividades recreativas, entre otras cosas. Me inspiran los niños y jóvenes con ganas de generar cambios positivos en su entorno, me apasionan mis trabajos y me encanta disfrutar la vida junto a mi pareja, mi familia y mis amigos. Soy licenciada en Ciencias de la Educación (UBA), pero ante todo mujer, judía, argentina y educadora por naturaleza, en cualquier orden."
+  },
+  {
+    "id": 9,
+    "name": "Carola Aideé Silvero",
+    "title": "",
+    "bio": "Mi nombre es Carola Aideé Silvero, tengo 41 años, vivo en la Ciudad de Posadas, soy Profesora en Historia. Actualmente cursando la licenciatura en Tecnología Educativa de la Universidad Tecnológica Nacional – Facultad Regional Buenos Aires. Modalidad Virtual. Me gusta leer, viajar, pasar tiempo con mi familia, y disfruto mucho de la naturaleza y de mi trabajo. He realizado diversos postítulos de áreas transversales, tales como la “Actualización Académica en Derechos Humanos”, una Diplomatura en Educación y Gestión Ambiental. FUDHAM y Facultad de Ciencias Forestales, Diplomatura Superior Docente en Educación y Gestión Ambiental. “Especialización Superior para Docentes en Educación para la Salud y Ambiente”. Desde el 2010 me encuentro trabajando en el área de nuevas tecnologías y educación; en este ámbito he participado y dictado cursos y talleres tales como; “Tecnologías de la Información y las Comunicaciones en la Educación” de Qualitas Red Tecnológica. Talleres Interactivos de Arte, Cultura Digital e Innovación: CONECTARFEST, desarrollado por Educ.ar S.E. y el Ministerio de Educación de Misiones. Taller de Padres “Familia Conectar. Las TIC en Casa”. Módulos de capacitación “Fortalecimiento Docente, en Herramientas y Estrategias Educativas con TIC”. Curso semipresencial “Estrategias de Trabajo con Netbooks en el Aula”, Capacitación semipresencial denominada “Las Tic Potenciando las Áreas Disciplinares”, con especificidad en el área de Historia, organizado por el Ministerio de Cultura, Educación, Ciencia y Tecnología en el marco del Programa Conectar Igualdad. Talleres de Difusión y Capacitación del Portal Educativo Andresito. Editatón Wikimisiones y Charlas Inspiradoras de Jóvenes para Jóvenes. Organizado por la Cámara de Representantes en Articulación con Wikimedia Argentina. Talleres Wikimisiones para Docentes. Desde el 2012 me encuentro desempeñando funciones en la Unidad de Gestión en TIC de la Cámara de Representantes, y desde el 2014 estoy a cargo de la Dirección de Innovación Tecnológica de la Unidad TIC antes mencionada, en ella llevamos a cabo diversos proyectos educativos innovadores, y de articulación con organismos públicos y privados."
+  },
+  {
+    "id": 10,
+    "name": "Carolina Güelman",
+    "title": "",
+    "bio": "Hola! Soy Carolina Güelman. Tengo 39 años, casada, y soy mamá de Mati y Santi de 5 y 3 años respectivamente. Soy Licenciada en Relaciones Publicas (UADE), poseo un Master en Comunicación Corporativa y con los Medios (City University of New York), y Posgrado en Marketing (UP / New York University). Soy Socio Gerente de AWENTURA, el primer videojuego basado en la Psicología Positiva que promueve la empatía y solidaridad en los chicos y brinda una plataforma para transformarlo en acción. A través de AWENTURA me propongo aumentar el bienestar en los chicos estimulando sus fortalezas y emociones positivas. Anteriormente creé el área de Comunicación Corporativa en el Holding de Comunicación Havas Media Group, en donde tuve a cargo la dirección del área entre 2005 y 2013. En Nueva York trabajé en Latinvox, agencia de Publicidad y Relaciones Publicas orientada al mercado hispano, y colaboré como voluntaria con CIPPEC, organizando charlas y eventos sociales para argentinos expatriados con el objetivo de informar sobre la situación y programas de Argentina, ampliar el network de colaboradores, y recolectar fondos. Ya venía colaborando con CIPPEC en Buenos Aires en el área de Comunicación."
+  },
+  {
+    "id": 11,
+    "name": "César Silveyra",
+    "title": "",
+    "bio": "Rapero Psicosónico. Lic. en Psicología en la Universidad de Belgrano(2005) especializado en terapia de jóvenes, con un Postgrado de danzaterapia, Brecha (2009) institución en la cual dicta clases a la formación regular y seminarios internacionales. Orador, Músico con formación en Rap y Profesor de baile. Realizó talleres para empresas como Avon, Panamerican Energy, Merck, Brinks, Smurra, Alpargatas, Banco Provincia, Pespico Uruguay y Deloitte. Abordando el liderazgo, el teambuilding y la comunicación desde una perspectiva innovadora que integra recursos psicológicos con artísticos. Dinámicas grupales, baile, percusión, rap e improvisación conducen las jornadas diseñadas a medida de la necesidad particular de la empresa. Diseñó y condujo happenings disruptivos en eventos de Google, Puma, Beldent, Banco Provincia y el museo Malba. Colaboró en el diseño del plan de capacitación del empleado y dictó los talleres del retail global de wellness WakeUp, situado en Nueva Zelanda. Fundador y director de Decilo, una movida de arte que cuenta con tres compañías y 350 alumnos de todas las edades. Enfocada que las personas se puedan reconocer y potenciar en un clima de igualdad e integración a través del arte y el movimiento como canal y medio. Desarrolló e implementó el programa \"Off road Di Tella\". Talleres vivenciales de orientación vocacional desde un enfoque creativo, implementado dentro de la universidad y en más de cuarenta colegios de Buenos Aires (2010-2016). Desde el año 2000 genera e implementa talleres originales en diversos ambientes como villas, multinacionales, instituciones artísticas, movimientos espirituales, colegios privados y públicos, universidades, clubes de rugby, ONG y fundaciones."
+  },
+  {
+    "id": 12,
+    "name": "Claudia Viviana Bonamino",
+    "title": "",
+    "bio": "Hola, soy Claudia Bonamino, me dedico a la educación de adultos y adolescentes, cumpliendo la función de Directora en una escuela pública y de Maestra de Centros Educativos en CABA. Tengo 31 años de profesión y me sigue interesando capacitarme profesionalmente y buscar nuevas propuestas para implementar en mi gestión. Me gusta leer, me apasiona el teatro y todo lo relacionado a la cultura y el arte. Me encanta viajar y conocer lugares exóticos y/o históricos."
+  },
+  {
+    "id": 13,
+    "name": "Cristián Parodi",
+    "title": "",
+    "bio": "Emprendedor social y comunicador. Techie. Impulso el proyecto “Hagamos algo por la Educación”, una iniciativa que propone nuevos puntos de vista para resolver la problemática del abandono adolescente en la escuela secundaria. Desarrollo, promuevo y aplico la “cultura colaborativa” que se basa en la inteligencia colectiva de grupos de aﬁnidad que trabajan cooperativamente para alcanzar metas y objetivos comunes. Actualmente ocupo mi tiempo en la co-gestión de iniciativas públicas y privadas orientadas a educación y desarrollo comunitario. Escribo en www.laescuelacolaborativa.com"
+  },
+  {
+    "id": 14,
+    "name": "Cristina Rodrigues",
+    "title": "",
+    "bio": "Cristina (Cris, como todos le dicen) es una incansable creadora de soluciones novedosas para acercar propuestas innovadoras con nuevas tecnologías tanto para los niños pequeños como a docentes que asisten a las Escuelas Públicas y Privadas del Municipio al que pertenece. Actualmente, Cristina es Subdirectora de Educación, a cargo de la Coordinación General del proyecto de Tecnología Educativa Digital, de la Secretaría de Educación del Municipio de Vicente López, Buenos Aires, Argentina. En el mismo está encargada de la creación, desarrollo, gestión e implementación del equipo TED Entramar, equipo de tecnología educativa digital aplicado a educación en Vicente López y sus Instituciones. Tiene a su cargo la creación y desarrollo del material didáctico, pedagógico y diseño del portal de tecnología educativa ENTRAMAR. También es Coordinadora IT y Profesora del Colegio Northlands desde hace 20 años, donde participa del desarrollo del currículum con integración de nuevas tecnologías. Además, es profesora del Nivel Superior de la cátedra Medios Audiovisuales, TIC y Educación del Instituto Superior de Formación Docente y Técnica Andersen. Asimismo, colabora con proyectos de cooperación Internacional para la integración de las TIC y la cultura digital en sistemas Educativos con países de la región y como Asesora Pedagógica de TABI Eurocase. Doctorando e investigadora de la Universidad del Salvador. Fue docente y Directiva en el Nivel Inicial, Capacitadora para la Universidad de Buenos Aires, en Medios Audiovisuales y nuevas Tecnologías de la Información y de la Comunicación destinado a los docentes del Sistema Educativo de Ciudad de Buenos Aires y Provincia de Buenos Aires. Consultora Pedagógica, del Grupo Educare Centro Internacional de Investigación. Asesora y capacitadora en Tecnología Educativa Proyecto Pibes2 va al Jardín para el Municipio de Ramallo. Cristina posee formación de Maestra Normal Superior, Profesora en enseñanza Preescolar e Infantil, Postgrado en Informática Nivel Primario, Profesora de Informática, Diplomada profesional de Enseñanza con Tecnología de la Informática y de las Comunicaciones. E.S.S.A.R.P. Universidad Cambridge. Licenciada en Educación Inicial Universidad del Salvador y cursando el último año del Postítulo de Especialización docente de Nivel Superior en Educación y TIC, del Ministerio de Educación."
+  },
+  {
+    "id": 15,
+    "name": "Daniel Len",
+    "title": "",
+    "bio": "Daniel Alejandro Len, 35 años, soy profesor de Educación, director del Departamento de Educación del club CISSAB, siempre viví en capital federal, amante del ping pong y confío mucho en la educación como principal motor para tener una sociedad mejor!"
+  },
+  {
+    "id": 16,
+    "name": "Eduardo Mario Berti",
+    "title": "",
+    "bio": "Eduardo Mario Berti, estudiante, graduado como Lic en Administración, no-docente y docente en la Facultad de Ciencias Económicas de la UBA, graduado en Relaciones Internacionales de la UCA y en el Instituto del Servicio Exterior de la Nación. Con Post-grados en Universidad del Desarrollo (Chile), FLACSO y Di Tella. Dedicó su vida a la diplomacia y vivió en varios países; se ha jubilado recientemente. Acaba de concluir el Mundo de las Ideas 2016."
+  },
+  {
+    "id": 17,
+    "name": "Emmanuel Lista",
+    "title": "",
+    "bio": "Soy Emmanuel Lista, tengo 30 años y vivo en Provincia de Buenos Aires. Actualmente, me desempeño como Oficial de Educación de UNICEF Argentina, donde desarrollamos distintos acuerdos de cooperación a nivel nacional y con diferentes provincias del país, incluyendo un proyecto de Secundarias mediadas por TIC en contextos rurales dispersos. Años anteriores participé en proyectos de capacitación a equipos de supervisión y de dirección de escuelas primarias y secundarias en el marco de las siguientes instituciones: la Universidad de San Andrés, la Dirección General de Cultura y Educación de la Provincia de Buenos Aires, la Organización de los Estados Iberoamericanos y la Asociación Civil Estrategias Educativas. Hace ocho años que también soy formador de docentes en distintos trayectos universitarios; el más relevante y en el que enseño hace más tiempo es la Residencia Pedagógica del profesorado en Ciencias de la Educación, en la Universidad donde me egresé. Soy Licenciado y Profesor en Ciencias de la Educación de la Universidad de San Andrés y en 2014-15 cursé una Maestría en Políticas Sociales en la Universidad de Buenos Aires."
+  },
+  {
+    "id": 18,
+    "name": "Ezequiel Gentile Montes",
+    "title": "",
+    "bio": "Niño problemático\", “no se adapta”, “aprende rápido y molesta en clase”, fueron sentencias lapidarias a lo largo de mi paso por la escuela primaria. Seis, cinco, seis, seis, cinco, seis, siete, seis, ocho (en actividades prácticas) fueron las notas lapidarias de mi paso por la escuela primaria. “Serás toda la vida un mediocre” parecían decir .A.S. (aprobó satisfactoriamente) ¿alguien se acuerda de eso? debo ser el único al que le parecía bien esa notación para el boletín de la secundaria allá por los ’80. Mi curiosidad DEBE ser satisfecha, es un impulso involuntario… fui deportista federado, inventor de juguetes (como el “malo” de ToyStory), programador de Commodore 64k, músico (guitarrista, cantante lírico, compositor, rockero, primer trombonista de la sinfónica juvenil, salsero…), técnico de grabación y sonidista, electricista matriculado, asistente de dirección, actor, fletero, analista programador de sistemas… esto tiene que parar! ¿Cuándo va a parar? Voy a hacer las cosas como la gente “normal”, voy a elegir, debo buscar la fibra misma de mi ser… pero si de eso se trata, de hacerme preguntas y contestármelas… de ser un eterno aprendiz. ¿Por qué? ¿Cuál es el mecanismo? ¿Cómo aprende el cerebro? ¿Es responsabilidad única de ese órgano? ¿Hay algo más? ¿Qué es la metacognición?… quién soy no es difícil de explicar, es difícil de entender."
+  },
+  {
+    "id": 19,
+    "name": "Fabiana Grosman",
+    "title": "",
+    "bio": "Mi nombre es Fabiana Grosman. Nací en la C.A.B.A. Tengo 47 años. Estoy casada y soy madre de tres hijos. Cursé la Licenciatura en Psicopedagogía y un Postgrado de Especialización en Recursos Humanos. Trato de aprovechar todas las oportunidades de aprendizaje que se me presentan…sino, las busco. Soy una profesional orientada a las personas, los procesos de aprendizaje, las comunicaciones, la creatividad y el diseño. Encuentro interesantes, también, los temas vinculados a la tecnología y la innovación. Mis primeras experiencias laborales -y las que considero más valiosas- fueron en el ámbito de la educación no formal, participando/liderando proyectos en ONGs y diseñando materiales didácticos. También incursioné brevemente en la educación formal como docente (nivel secundario y universitario). Mi experiencia de los últimos casi 20 años se centra en la conducción de equipos, el diseño e implementación de procesos de planeamiento de recursos humanos, desarrollo de proyectos, gestión de comunicaciones internas, definición e implementación de estrategias de marca de empleo y gestión del cambio cultural en corporaciones. Actualmente trabajo en mi propio emprendimiento en el diseño e implementación de actividades con arte en organizaciones, me estoy formando como artista plástica y soy voluntaria en dos organizaciones (educativa/acción social)."
+  },
+  {
+    "id": 20,
+    "name": "Fernando Fontanarrosa",
+    "title": "",
+    "bio": "Desde el año 2011 a la actualidad me desempeño como responsable de la Dirección Provincial de Tecnologías Educativas del Ministerio de Educación de la Provincia de Santa Fe, a cargo de todos los programas, proyectos y políticas TIC en dicha jurisdicción. Anteriormente a esta función, me desempeñé como líder de proyectos TIC para Educación, Banco Mundial y el BIRF, implementando proyectos de reingeniería de procesos y programas TIC a gran escala en todo el territorio provincial. Soy Ingeniero Industrial y cursé la Maestría en Economía y Administración de Empresas."
+  },
+  {
+    "id": 21,
+    "name": "Gabriel Aníbal D’ Orazio",
+    "title": "",
+    "bio": "En la primaria estudié en el colegio Sagrado Corazón de Castelar, donde pasé mi infancia y la adolescencia. Luego, el secundario lo cursé en una escuela técnica con orientación en construcciones, continuando mis estudios en la facultad de arquitectura en la UBA, en la que fui ayudante de cátedra. En ese momento, me casé, tuve una hija y me fui a vivir a la ciudad de Neuquén donde tuve mi segundo hijo. Comencé a dar clases en una escuela técnica, la EPET N°8. Paralelamente, me fui dedicando a mi carrera como directivo, estudié profesorado y realicé un postítulo, llegando a director de la institución. Acompañé, planifiqué, coordiné y dirigí, jornadas de capacitación para docentes y alumnos."
+  },
+  {
+    "id": 22,
+    "name": "Gabriela Gutiérrez",
+    "title": "",
+    "bio": "Salteña. Politóloga de la UBA -Universidad de Buenos Aires-, y especialista en políticas sociales de FLACSO –Facultad Latinoamericana de Ciencias Sociales-. En la función pública, se ha desempeñado como asesora de la Honorable Cámara de Diputados de la Nación, la Subsecretaría de la Juventud y en la Secretaría de Políticas Sociales de la Provincia de Salta. También formó parte como consultora externa, de la Secretaría de Economía Social del Gobierno de la provincia de Santa Fe. En el ámbito privado, ha formado parte de los equipos técnicos de prestigiosas ONGs. En el Tercer Sector ha desarrollado tareas como voluntaria, coordinadora de programas y también en puestos de dirección. Apasionada por el sector emprendedor integra equipos de trabajo en el norte argentino. Es tallerista en temáticas de Economía Social y Solidaria, y Género. Docente de Ciencia Política en el CBC."
+  },
+  {
+    "id": 23,
+    "name": "Guadalupe Penas",
+    "title": "",
+    "bio": "Mi nombre es Guadalupe Penas, soy Lic.enCiencias Políticas de la Universidad Torcuato Di Tella. He cursado la maestría de desarrollo local en la UNSAM, adeudando la tesis que seguramente busque indagar la vinculación entre entornos educadores y la gestión local. Trabajé algunos años en la gestión pública, en áreas institucionales y en relación con municipios llegando a coordinar el Área de Apoyo a Iniciativas Socialmente Responsables del Ministerio de Desarrollo Social de Nación, que buscaba articular acciones de impacto social y ambiental con OSC y el sector privado. A partir de dicha incursión en la temática, coordiné el área académica del I, II y III Congreso Internacional de Responsabilidad Social (CIRS) en el marco de la Fundación Observatorio de Responsabilidad Social (FORS). Actualmente me encuentro coordinando junto a Alberto Croce y a María Cherñajovsky, el proyecto Transformar la Secundaria, en el marco de la Fundación Voz cuya misión es transformar y mejorar la educación secundaria argentina , para que los adolescentes y jóvenes se eduquen y preparen para ser actores y protagonistas del futuro del país, responsables, capaces, solidarios, creativos, innovadores, emprendedores, comprometidos."
+  },
+  {
+    "id": 24,
+    "name": "Inés Taylor",
+    "title": "",
+    "bio": "Hola, soy Ine. ¡Mucho gusto! Tengo 27 años y, aunque nací en Buenos Aires, crecí en varios países. Estudié Biología como carrera de grado, antes de pasarme al mundo de la educación en el 2011. Actualmente soy asistente de investigación en la universidad de San Andrés, mirando diferentes maneras de mejorar la educación de las ciencias naturales, y en particular estoy interesada en maneras de mejorar los aspectos socioemotivos de la educación sexual. No veo la hora de conocer más gente comprometida con la educación."
+  },
+  {
+    "id": 25,
+    "name": "Ivana Zacarías",
+    "title": "",
+    "bio": "Mi nombre es Ivana. Soy licenciada en Estudios Internacionales (UTDT) y tengo una maestría en Política Educativa Internacional (Harvard). Trabajé en organizaciones de la sociedad civil, como CIPPEC y Poder Ciudadano, y también para organismos internacionales (IIPE-UNESCO, UNICEF), en distintos proyectos educativos. Hace cinco años, armamos el Programa de Mejoramiento de la Enseñanza en la Universidad de San Martín -dirigido por Juan Carlos Tedesco-, al que le dedico algunas horas por semana hoy, pero mi actividad principal es en el área de evaluación de los aprendizajes de la Secretaría de Evaluación Educativa del Ministerio de Educación de la Nación. Tengo algunos libros publicados, pero mi favorito es mujercitasenaprietos.org."
+  },
+  {
+    "id": 26,
+    "name": "Joselina Casarini",
+    "title": "",
+    "bio": "Joselina Casarini- Curiosa incansable, amante de la naturaleza y de las preguntas que abren la puerta a nuevas preguntas. Reside en la “ciudad de las diagonales”, donde está abocada a la educación del pensamiento a través enseñanza de las Ciencias Exactas y Naturales. Se desempeña como responsable del Equipo Técnico Central, del área de Ciencias Naturales para el Nivel Primario, en la Dirección de Formación Continua de la Dirección General de Cultura y Educación (DGCyE) de la Provincia de Buenos Aires. Miembro deAsociación Civil Expedición Ciencia, donde realiza tanto tareas de coordinación docente, como de logística y organización de sus programas educativos, como sus campamentos científicos. Educadora en el Instituto Eureka: Educación del Pensamiento, donde lleva adelante talleres de pensamiento científico para niños y adolescentes y capacitaciones docentes. También es capacitadora del programa Samsung Smart School Argentina, en el Aula Interactiva del Museo de Ciencias Naturales de la Universidad Nacional de La Plata y tutora del equipo de Ciencias Naturales del postítulo “Especialización en Educación Primaria y TIC” del Ministerio de Educación y Deportes de la Nación."
+  },
+  {
+    "id": 27,
+    "name": "Juan Ignacio Fernández",
+    "title": "",
+    "bio": "Soy especialista en Ciencias de la Educación, master en política educativa por la Universidad de San Andrés y profesor de educación superior en política y gestión de sistemas educativos en el Instituto de Formación Docente Spangenberg. Además, en la actualidad trabajo como capacitados en INAP y soy Jefe de Gabinete de la Subsecretaria de Planeamiento e Innovación Educativa en el Ministerio de Educación de la Ciudad de Buenos Aires."
+  },
+  {
+    "id": 28,
+    "name": "Juan Manuel Padilla",
+    "title": "",
+    "bio": "Mi nombre es Juan Manuel Padilla, tengo 42 años, soy scout desde los 6 años y una vez terminada la etapa de beneficiario (a los 21) continué en el movimiento scout como dirigente y un tiempo como jefe de grupo. Desde marzo del 2012 me desempeño en la Secretaría de Ciencia, Tecnología y Políticas Educativas del Municipio de La Matanza, actualmente coordinando el CITLAM (Centro de Innovación Tecnológica para Proyectos Educativos) y a cargo del programa Clubes de Ciencia y de las políticas de difusión de Tecnologías Libres. Soy presidente de la Asociación Civil Red Argentina de Ciencia, Tecnología y Comunicación – Red CITECO que tiene entre sus objetivos promover la divulgación científica y tecnológica y contribuir a la comunicación y la participación para el intercambio de ideas y experiencias popularizando la actividad científica y favoreciendo la redistribución del conocimiento."
+  },
+  {
+    "id": 29,
+    "name": "Judith Rasnosky",
+    "title": "",
+    "bio": "Me apasiona tanto trabajar por la educación que todavía hoy, a 20 años de haber empezado, sigo conmoviéndome hasta las lágrimas con cada proyecto concretado, con cada logro, por pequeño que sea. La edición de textos escolares me permitió unir las tres puntas del camino que comencé a trazar cuando terminé la secundaria: las Ciencias Sociales (me licencié en Sociología en la UBA, en 1990), la Comunicación (estudié también en la UBA y aunque me quedaron 6 materias sin cursar, trabajé como docente en la cátedra de Comunicación III durante 10 años) y la Educación (creo que Tecnología Educativa con Edith Litwin fue la materia que me “abrió los ojos” a mi profesión actual). Desde 1995 trabajo en editoriales, como autora, como editora, en relación de dependencia o free lance. Actualmente, llevo 5 años como gerenta editorial en Estrada, con una gran responsabilidad no solo por crear los libros que usan miles de chicos en todo el país sino también por hacerlo desde la primera editorial que existió en la Argentina. Y por supuesto, siempre pensando en mis hijos, que son tres y aunque ya están grandes, me dan la inspiración y la fuerza para seguir creyendo que una mejor educación es posible."
+  },
+  {
+    "id": 30,
+    "name": "Julieta Bentivenga",
+    "title": "",
+    "bio": "Actualmente me desempeño como líder de proyectos educativos de Fundación Itaú. Soy licenciada en Ciencias de la Educación con orientación en Nuevas tecnologías y maestranda en Ciencias Sociales con orientación en Educación (FLACSO). Hace años que trabajo en el campo de la educación en la implementación y evaluación de proyectos innovadores relacionados con las nuevas tecnologías principalmente en escuelas secundarias con docentes y directivos tanto desde el mundo editorial como desde el tercer sector."
+  },
+  {
+    "id": 31,
+    "name": "Laura Andrea Canals",
+    "title": "",
+    "bio": "Soy Laura Andrea Canals, nací en Avellaneda hace 46 años en pleno frío invernal. Soy docente desde hace 25 años, fui maestra en escuelas primarias de CABA durante 13 años y los últimos 11 trabajé como directora pedagógica en una escuela privada. Hace un año comencé un proyecto independiente: el diseño de juegos didácticos con temáticas complejas. Mi emprendimiento se llama Poner en Juego. Soy mamá a tiempo completo de Dante de casi 11 años y comparto mi vida con Oscar, mi amor y apoyo incondicional en todo lo que emprendo. En un par de meses me recibo de licenciada en psicopedagogía en la Universidad CAECE y trabajo como asistente psicopedagógica voluntaria en el centro educativo Isauro Arancibia que recibe chicos, adolescentes y adultos en situación de calle. Además formo parte de la coordinación del comité académico de la Fundación Sociedades Complejas, que organiza congresos y capacitaciones en educación."
+  },
+  {
+    "id": 32,
+    "name": "Laura Pezzatti",
+    "title": "",
+    "bio": "Laura Pezzatti. Matemática nicoleña. Terminando mi doctorado en el cual trabajo interdisciplinariamente buscando evidencia acerca de cómo aprendemos. Estudié matemática porque creo que es un área muy fértil para aprender-enseñar a pensar y he trabajado realizando esta tarea con chicos de todos los niveles, tanto como docente en instituciones educativas como coordinadora de actividades en ámbitos extraescolares. Actualmente soy asesora en alfabetización matemática del equipo de formación continua de la provincia de Buenos Aires y docente en la UBA. También diseño y coordino talleres para el programa ExtraClase de Techint y soy miembro del jurado y comité de problemas de la Olimpíada Matemática Ñandú. Me apasiona lo que hago."
+  },
+  {
+    "id": 33,
+    "name": "Leonora Kievsky",
+    "title": "",
+    "bio": "Leonora Kievsky es Licenciada en Sociología por la Universidad de Buenos Aires y realizadora audiovisual egresada del ENERC –INCAA. Actualmente se desempeña como coordinadora del Programa Sembrar Vocaciones de la Fundación YPF, y tiene a su cargo el desarrollo de programas educativos y contenidos de divulgación sobre la temática energética y sus profesiones -entre ellos, portales educativos, series de TV y publicaciones. Con una trayectoria en el ámbito de la educación y la comunicación de más de 20 años, ha gestionado programas educativos de innovación en ciencia y tecnología, de retención escolar en escuelas secundarias y de educación no formal."
+  },
+  {
+    "id": 34,
+    "name": "Lili Ochoa De la Fuente",
+    "title": "",
+    "bio": "Si alguien me pregunta qué hago digo que me dedico a la educación. Si lo explico de otro modo es difícil de entender. Empecé siendo directora de una escuela pública. Estoy convencida de que los directores son los líderes de la innovación. Tengo trayectoria en la gestión de políticas públicas en el ámbito educativo desde distintos rincones. Me interesan demasiadas cosas en educación, sobre todo relacionar gente potente para provocar algo distinto, modesto en lugares donde parece imposible cambiar algo."
+  },
+  {
+    "id": 35,
+    "name": "Luciana Alonso",
+    "title": "",
+    "bio": "Es Magister en Educación (UNED- España). Prof. Lic. en Psicopedagogía (USAL). Becaria titular de la OEA en período 2002-2003. Responsable de la alianza institucional Vicaría de Educación de Buenos Aires- Fundación Telefónica de Argentina donde conduce iniciativas de innovación pedagógica para la genuina inclusión tic y desarrolla comunidades de aprendizaje y práctica docente. Actualmente, también realiza consultoría externa e investigación para los ministerios de educación de la provincias de Salta, La Rioja y de la Ciudad Autónoma de Buenos Aires. En materia de Orientación Educativa, asesora a la Subsecretaría de Equidad y Calidad del Ministerio de Educación de la Pcia.de Córdoba y desarrolla ciclos de formación y producción de materiales para el acompañamiento a las trayectorias en la Nueva Escuela Secundaria. Asesora y conduce iniciativas de transformación educativa e innovación en escuelas de la Ciudad de Bs As. Se desempeña como Profesora titular de la Universidad del Salvador, Facultad de Psicología y Psicopedagogía. Ha liderado 36diversos equipos profesionales, tanto nacionales e internacionales, en proyectos de educación, tecnología y psicología educacional. Específicamente en orientación educativa y escuela secundaria ha asesorado proyectos en la Fundación Bunge y Born, Fundación para la igualdad de oportunidades educativas, Cimientos, entre otros."
+  },
+  {
+    "id": 36,
+    "name": "Luciana Pérez Zamora",
+    "title": "",
+    "bio": "Luciana Pérez Zamora de Nahas, Lic. En Matemática, Mg. en Estadística Aplicada, Postgrado en Pedagogía Universitaria. Docente Investigador del INIE (Instituto de Investigaciones Estadísticas) de la UNT desde 1992 a la fecha. Desde 2003 a la fecha me desempeño en la gestión pública como como Jefe del Departamento de Planeamiento y Estadística del Ministerio de Educación de Tucumán. Consultor Junior en Estadística para el PNUD (1988-1992) en Proyectos de Desarrollo Rural para la Región del NOA y Región Andina. Becaria del CONICET (1993-1997). Asesora Estadística en la Empresa GEESA (Gestión Eléctrica Empresaria SA) y de las Revisiones Tarifarias y curvas de carga de las Empresas Distribuidoras de Energía Eléctrica de distintas provincias."
+  },
+  {
+    "id": 37,
+    "name": "Lucila Minvielle",
+    "title": "",
+    "bio": "Soy Lucila Minvielle. Trabajo como Directora Ejecutiva del Centro de Investigación Aplicada en Educación San Andrés (CIAESA), donde nuestra misión es producir conocimiento para transformar la realidad educativa. También doy clases de Gestión Educativa en la Universidad de San Andrés, donde trabajo hace 15 años. Allí comencé como asistente de docencia, dicté cursos de grado y posgrado, y tuve a mi cargo la planificación de nuevos productos académicos en la Oficina de Rectorado. Me gusta asesorar instituciones educativas, donde trabajo con directivos, docentes, y alumnos. Antes de dedicarme a la educación trabajé en consultoría estratégica en el área de fusiones y adquisiciones. Soy Doctora en Educación, y Licenciada en Administración de Empresas."
+  },
+  {
+    "id": 38,
+    "name": "Luisina Ferrante",
+    "title": "",
+    "bio": "Tengo 27 años, soy Profesora de Historia recibida en la Facultad de Filosofía y Letras de la Universidad de Buenos Aires, más conocida como “Filo”. Ahora me encuentro escribiendo mi tesis de maestría en Derechos Humanos y Políticas Sociales, cursada en la Universidad Nacional de San Martín entre 2014-2015. Soy docente de Historia e Historia y Fundamentos de la Educación Popular en dos escuelas para jóvenes y adultos en CABA. Actualmente soy la coordinadora de Educación de Wikimedia Argentina, espacio donde trabajo con múltiples sujetos pedagógicos con el objetivo de sumar el uso de Wikipedia en el aula y acercar la filosofía Wiki a los entornos educativos. En pos de situarnos en el rol de hacedor@s y creador@s de conocimiento en la enciclopedia libre más grande del mundo."
+  },
+  {
+    "id": 39,
+    "name": "María Belén Barrionuevo",
+    "title": "",
+    "bio": "Mi nombre es Belén Barrionuevo Vidal, soy cordobesa y represento al Ministerio de Educación de mi provincia.Nací en una ciudad del sur cordobés y, actualmente, estoy radicada en Córdoba Capital. Coordino un equipo, dentro del Ministerio de Educación, que pertenece al área de Políticas para la Docencia llamado: Programa Provincial: “Aprendizajes entre docentes y escuelas”. Soy Investigadora. Docente. Correctora de estilo.Soy profesora, técnica en gestión, Licenciada en Cs. de la Educación con especialización y he terminado mi maestría en investigación educativa. Soy madre de seis hijos, con lo cual la innovación se convirtió en una necesidad constante n mi vida."
+  },
+  {
+    "id": 40,
+    "name": "María Cherñajovsky",
+    "title": "",
+    "bio": "Soy María Cherñajovsky. Nací en Buenos Aires en 1974. Estudié teatro y trabajé en publicidad. En el exterior, realicé cursos de diseño y asistí a la escuela de moda londinense, Central Saint Martins. En el 2001, regresé a Buenos Aires, para lanzar mi marca de ropa, MARIA CHER. Que, al día de hoy, cuenta con 31 locales exclusivos en Argentina, Chile, Uruguay y Paraguay; y más de 100 cuentas multimarca. En 2006, junto a mi madre, creamos la Fundación Paz por la No Violencia. Allí desarrollamos el programa \"Cosiendo Redes\", un espacio de capacitación creado con el objetivo de facilitar su incorporación en el ámbito del trabajo textil. Desde hace ya 8 años, realizo el “Encuentro María Cher. Mujeres que Inspiran”, reuniendo a más de 1200 espectadores. Tiene cada año, como protagonistas cuatro oradores seleccionados por el impacto positivo de sus proyectos con el objetivo de darles visibilidad. Cada uno de los invitados trabaja sobre una temática diferente; pero todos tienen un objetivo común: trabajar para mejorar la calidad de vida de otras personas, sus hijos y la sociedad. Son sujetos con una visión transformadora y una ambición reparadora. Producto de este evento en octubre de 2011 la Editorial Planeta me convoca junto a Carla Czudnowsky para escribir el libro “María Cher. Mujeres que Inspiran”. El libro recopila historias de más de veinte mujeres referentes en distintas disciplinas, profesiones y perfiles de mujeres que van al frente con sus luchas o creencias. En 2016 creó la Fundación Voz, cuyo principal programa es transformar la secundaria. El proyecto busca instalar la problemática de la escuela secundaria argentina tanto en la agenda social, como en la agenda pública, traccionando cambios y mejoras que converjan en una reforma sistémica de este nivel educativo. Su objetivo es que las propuestas que surjan de los consensos de todos los que participen, sean incorporadas a las prácticas de la comunidad educativa, incidan en la generación de políticas públicas transformadoras y sean acompañadas por la sociedad en su conjunto."
+  },
+  {
+    "id": 41,
+    "name": "María Cristina De Giacomi",
+    "title": "",
+    "bio": "Cris Morena: Asistente social. Pianista. Compositora musical y letrista. Actriz. Conductora. Directora de TV y teatro. Abuela de cuatro nietos maravillosos. Madre de dos hijos. Hija de una socióloga y un ingeniero. Investigadora, buscadora, apasionada de la vida. Madre de muchos miles de hijos de la vida."
+  },
+  {
+    "id": 42,
+    "name": "María de las Mercedes Miguel",
+    "title": "",
+    "bio": "Soy Mercedes Miguel, tengo 43 años y a los 18 me enamoré de la educación. Trabajé como maestra de Inglés y mi pasión por enseñar a aprender quedó instalada.Trabajé en diversos rubros de la educación hasta que hace 12 años me dedico a la política pública educativa y asumí diversas responsabilidades que me permitieran cambiar la realidad. Hiper curiosa estudié en diversos lugares buscando la luz en la educación del futuro y como llevar mejor aprendizaje a todo el país. No dudo un instante del poder de la educación para cambiar la trayectoria de la vida de las personas. En este momento soy Secretaria de Innovación y Calidad Educativa en el Ministerio de Educación y Deportes de la Nación."
+  },
+  {
+    "id": 43,
+    "name": "María Eugenia Podestá",
+    "title": "",
+    "bio": "Mi nombre es María Eugenia Podestá. Soy Directora del área de Extensión de la Escuela de Educación y co-directora del Postítulo de Actualización Docente y del Profesorado Universitario en la Universidad de San Andrés. Realicé una maestría en Educación en la Universidad de Bath, Reino Unido, pero mi formación de base es en bioquímica, por lo que mi gran pasión está en la enseñanza de las Ciencias Naturales y la mejora escolar. Junto a Melina Furman, mi compañera de aventuras, coordinamos el Programa de Educación en Ciencias de UdeSA, llevando adelante proyectos de formación docente e investigación justamente vinculados a la enseñanza de las Ciencias. Soy co-autora y compiladora del libro “Mejorar la escuela. Acerca de la gestión y la enseñanza” (Buenos Aires, Ediciones Granica, 2004), del libro “Mejorar la gestión directiva de la escuela” (Buenos Aires, Ediciones Granica, 2007) y co-autora del libro “La Aventura de enseñar Ciencias Naturales” (Editorial Aique, 2009) y del libro “El cerebro que aprende” (Editorial Aique, 2013). Además soy directora de la nueva colección “Neurociencias y Educación”, de Aique Grupo Editor."
+  },
+  {
+    "id": 44,
+    "name": "María Laura Erhart",
+    "title": "",
+    "bio": "Soy co-fundadora de Tierra Fértil y guía. Un espacio de educación no formal, no graduado (con niños de 6 a 11 años). Tengo dos hijos: Antonia (10) y Facundo (9). En Agosto del año pasado participé en la SEA (Semana de Educación Alternativa) en Bogotá, Colombia. En Febrero de este año fui contratada por la Universidad Jesuita de Guadalajara, México para dar 3 talleres a maestros y directores de distintos colegios y tuve el honor de cerrar el Simposium de Educación presentando Tierra Fértil. Actualmente, trabajamos junto a un grupo de experiencias formales y no formales para que se reglamente la Ley de Educación de Gestión Social y Cooperativa. http://gestionsocial.info/. A mis 40 años sigo aprendiendo y lo haré hasta el último suspiro que dé en mi vida. Aprender y aprehender no es lo mismo. Educar y domesticar tampoco. Seguir a viejos o actuales pedagogos que, con total impunidad intelectual dan cátedra frente a un público absorto que los sigue como gurúes que tienen la verdad absoluta, es una opción pero prefiero entregarme a la incertidumbre de la vida, dudar y basar mi vida en los procesos naturales y profundos en los que estoy dispuesta a bucear y surfear con cada ola!"
+  },
+  {
+    "id": 45,
+    "name": "Mariana Luzuriaga",
+    "title": "",
+    "bio": "Mi nombre es Mariana Luzuriaga, tengo 26 años y soy Licenciada y Profesora en Ciencias de la Educación. Hoy formo parte del equipo del Programa de Educación en Ciencias de la Universidad de San Andrés, que lleva adelante proyectos de formación docente e investigación vinculados a la enseñanza de las Ciencias Naturales en todos los niveles educativos. También integro el equipo docente de la Residencia Pedagógica en UdeSA y dicté la materia Introducción a los Estudios Universitarios en el curso de ingreso a la Universidad Nacional de San Martín. Aficionada al arte, el diseño y la cocina."
+  },
+  {
+    "id": 46,
+    "name": "Marianela Irene Giovannini",
+    "title": "",
+    "bio": "Mamá de Luca y trabajadora de la Educación. Ya desde la escuela secundaria busqué siempre formar parte de proyectos y equipos que persiguieran algún fin social. En 2003 obtuve una beca que me permitió estudiar en la U. de San Andrés mi carrera de grado (Cs. Políticas) y luego continuar mis estudios de postgrado (Mg. en Educación). Soy de espíritu inquieto por lo que a poco de graduarme comencé a trabajar en varios proyectos y organizaciones en forma independiente, incluso incursioné en la docencia universitaria en el sector estatal (UBA-ONGs). En general mi desarrollo profesional está orientado a la formación de formadores, los diseños curriculares y el asesoramiento a Fundaciones empresarias en temas educativos. Me encuentro en permanente búsqueda de nuevos proyectos y desde siempre sueño con trascender modificando algo de mi entorno o creando algo nuevo que permita a las generaciones futuras vivir plenamente y tener mayores oportunidades de desarrollar su potencial. Además, los últimos años he dedicado cierto tiempo a capacitarme en temas vinculados con la primera infancia, las ideas de Emmi Pikler y las Escuelas de Infancia de Reggio Emilia, Italia."
+  },
+  {
+    "id": 47,
+    "name": "Martín Pennacino",
+    "title": "",
+    "bio": "Hola Innovadores de vida. Mi nombre es Martín Pennacino. Estoy cerca de cumplir cuatro décadas sobre esta tierra. De este recorrido gran parte lo he dedicado a soñar y producir contenidos para televisión, teatro y radio. Habito un mundo creativo, donde las ideas, pensamientos y palabras se convierten en imágenes que llegan a millones de personas. Viví y trabajé, también, varios años en México y Paraguay. Paralelo al camino en los medios de comunicación construí un universo de búsquedas y encuentros espirituales que me llevaron a caminar durante meses India y Nepal (y renacer una y otra vez...). Hoy escribir, amar y servir al bien común son mis grandes metas para los cuarenta y tantos que vendrán. Abrazo del alma."
+  },
+  {
+    "id": 48,
+    "name": "Melania Liliana Ottaviano",
+    "title": "",
+    "bio": "Lic en Psicopedagogía por USAL, Profesora de nivel y universitario especializado en Psicopedagogia, USAL, Master en desarrollo de plataforma E-learning por la Universidad Carlos III de Madrid, España. Especialidades: Tecnología educativa en diferentes contextos incluido escuelas hospitalarias, domiciliarias. Capacitación, coordinación y gestión de proyectos de educación y TIC. Inclusión de videojuegos en clase. Investigadora.Doctorando en la Universidad de Extremadura de España sobre Tic en educación. Actualmente: Coordinadora de Informática educativa, del campus virtual del colegio Benito Nazar y otros colegios de la congregación. Coordinadora del proyecto inclusión de Minecraft en clase en el colegio Benito Nazar de Bs. As., Argentina. Capacitadora en Microsoft de Argentina sobre inclusión de Minecraft en clase. Asesora sobre inclusión de Minecraft en educación Escuela Sueños y progresos de la Prov. de San Luis, Argentina. Docente del Mooc: diseño de actividades innovadoras con tecnología para directivos y docentes de todos los niveles educativos en el Miriadax en alianza con UTN, (Universidad Tecnológica Nacional). Miembro del equipo TedxRíodelaPlata Educación. Referente del proyecto de Clubes de Ideas."
+  },
+  {
+    "id": 49,
+    "name": "Mercedes Werner",
+    "title": "",
+    "bio": "Diseña e implementa puentes entre la tecnología y la educación. Actualmente es Gerente de Incorporación de Tecnología (Intec) en el Ministerio de Educación de la Ciudad de Buenos Aires. Tiene experiencia en diversos sectores: Gobierno, tercer sector, sector privado y emprendedor. Se formó en Administración, Educación, Liderazgo e Innovación social en Argentina, Estados Unidos y Brasil. Facilita encuentros y organiza talleres de colaboración entre sectores de forma amateur."
+  },
+  {
+    "id": 50,
+    "name": "Micaela Manso",
+    "title": "",
+    "bio": "Magister en Educación con especialización en tecnología educativa de la Escuela de Graduados en Educación de la Universidad de Harvard y doctoranda de la Escuela de Educación de la Universidad de San Andrés. Educadora hace 18 años, participó y coordinó proyectos de innovación educativa en escuelas y de investigación en América Latina y Estados Unidos. Actualmente es asesora pedagógica de la Secretaría de Innovación y Calidad Educativa del Ministerio de Educación de la Nación. Áreas de interés: Educación y Tecnologías de la Información y Comunicación (TIC), Innovación educativa, Investigación cualitativa, Enseñanza para la comprensión, Diseño de ambientes creativos de aprendizaje y educación, Nuevas bibliotecas escolares, TPACK (Technological Pedagogical Content Knowledge)."
+  },
+  {
+    "id": 51,
+    "name": "Natalí Savransky",
+    "title": "",
+    "bio": "Natalí Savransky. Soy Licenciada y Profesora en Ciencias de la Educación (UdeSA). Actualmente me desempeño como Especialista en Educación en la Organización de Estados Iberoamericanos (OEI Argentina), docente en la Facultad de Derecho (UBA) y en la Universidad de San Andrés, y consultora en el área de capacitación en la Fundación Kaleidos. A su vez, participo como voluntaria en el Proyecto Clubes de Ideas. Mi desarrollo profesional está vinculado a temas de política educativa, formación docente y evaluación formativa. Soy una apasionada de la educación en casi todas sus versiones, jugadora amateur de hockey y una convencida de que toda experiencia de vida es una oportunidad para aprender."
+  },
+  {
+    "id": 52,
+    "name": "Natalia Rubinstein",
+    "title": "",
+    "bio": "Mi nombre es Natalia Rubinstein. Estudié licenciatura en biología en la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires (FCEN-UBA). Realicé mi doctorado explorando mecanismos de escape tumoral a la respuesta inmune y neoformación de vasos. Realicé un postdoctorado en Suiza en donde evaluamos el mecanismo de inducción de metástasis en cáncer de mama. Actualmente soy Investigadora de CONICET y con mi grupo de investigación estudiamos mecanismos de regulación génica que permitan a las células tumorales ser más agresivas. Además soy docente de la Facultad de Ciencias Exactas y Naturales. Investigar y dar clases son mi pasión. El mundo de la educación en ciencias se intercala en varios puntos de mi vida. Hace unos años desarrollo informalmente clases y experiencias de ciencia con niños de jardín y escuela primaria. Mi proyecto actual intenta poder trasladar a la escuela primaria la necesidad de incorporar en la actividad escolar el razonamiento científico. Mi desafío sería poder incluir como taller la idea de que generar criterio propio es posible desde la enseñanza de la ciencia en donde los nenes exploren sus propias preguntas e hipótesis buscando una estrategia para responderlas logrando interpretar datos elaborando conclusiones. Tener criterio para discernir y poder trabajar en grupo son herramientas que me gustaría reforzar en la escuela. Como miembro de la cooperadora de la escuela de mi hija quiero hacer base y empezar a trabajar en esta idea. Además, canto en la banda de música poprockprotesta Sol de Noche y entreno para ser Clown de Hospital."
+  },
+  {
+    "id": 53,
+    "name": "Nilda Palacios",
+    "title": "",
+    "bio": "Hola, soy Nilda. Estudié Ciencias de la Educación y Edición. Soy inquieta y curiosa, me gusta estar actualizada en el área educativa y tecnológica. Fui formadora de docentes, capacitadora, asesora pedagógica, coordinadora de proyectos, vicedirectora. Actualmente trabajo en una editorial generando contenidos digitales educativos y coordino los proyectos de la fundación Santillana. Mi trabajo me permite aportar a la educación desde fuera del sistema y conocer muchas realidades diferentes. Eventualmente dicto un Seminario sobre proyectos de innovación educativa en el área de las Ciencias de la Salud. Disfruto aprendiendo y enseñando. Mi desafío personal: aprender alemán."
+  },
+  {
+    "id": 54,
+    "name": "Oscar Ghillione",
+    "title": "",
+    "bio": "Oscar Ghillione es Director Ejecutivo de Enseñá por Argentina. Oscar es Licenciado en Administración de Empresas (UADE), becario de la Fundación Carolina 2006 en el posgrado de Dirección de Empresas (U Comillas), posee un MBA (UCEMA), es graduado de la Especialización en Políticas Educativas (UTDT) y Profesor Nivel Secundario y Superior (U Austral). En febrero de 2009 Oscar comenzó el desarrollo del plan de acción necesario para ser parte de la organización Teach For All, que actualmente reúne organizaciones independientes en 40 países, dedicadas a disminuir las desigualdades educativas y crear un movimiento de jóvenes profesionales comprometidos con la educación de su país. En 2016, los Profesionales de Enseñá por Argentina (PExAs) logran impactar en el aprendizaje diario de más de 11.500 chicos en Buenos Aires, Salta y Córdoba. Oscar está casado con Luz y es padre de Oscar, Francisco y Pedro. Viven en Buenos Aires, son hinchas de Racing y disfrutan de leer juntos las Dailan Kifki cada noche."
+  },
+  {
+    "id": 55,
+    "name": "Pablo Salomón",
+    "title": "",
+    "bio": "Es Licenciado en Ciencias Biológicas por la Universidad de Buenos Aires (UBA), Diplomado Superior en Enseñanza de las Ciencias por FLACSO/Argentina y estudiante del Programa Interuniversitario de Doctorado en Educación UNLa-UNTreF-UNSaM. Es docente en la Universidad de San Andrés, responsable de Contenidos en la Especialización Docente en Educación Primaria y TIC e integrante del equipo de Ciencias Naturales del Programa de Formación Situada del Instituto Nacional de Formación Docente (INFD). Trabaja como autor y editor de materiales educativos. Escribió La integración de la tecnología educativa en el aula: Enseñando Biología con las TIC (Cengage)."
+  },
+  {
+    "id": 56,
+    "name": "Patricio Carranza",
+    "title": "",
+    "bio": "Soy consultor en Tecnología, eLearning y Gestión de Calidad, Auditor Interno ISO 9001 (Georgia Institute of Technology), analista de IoT (Internet of Things Cisco NetworkingAcademy) y diseñador de soluciones educativas innovadoras. Apasionado por los inmigrantes en general y los digitales en particular. Miembro de Internet Society. Creé y mantengo con vida el hashtag #SubteLee desde @pcarranza. Soy escritor, esposo y papá x 4."
+  },
+  {
+    "id": 57,
+    "name": "Santiago Insua",
+    "title": "",
+    "bio": "Hace poco me volví a morir. “Ataque de pánico” es la traducción médica más adecuada a la que llegamos después de 2.500 años de práctica profesional, me dijo el doctor. Yo sentí con todo mí ser que me moría. Hace tres años me pasó lo mismo y nadie logró explicármelo, así que ya no me preocupo porque alguien venga a resolvérmelo desde fuera. Yo vuelvo a las bases (gente querida a mi lado, buen dormir, buena alimentación) y confirmo de nuevo las frases atribuidas a Sócrates como mi filosofía de vida: “solo sé que nada sé” - “conócete a ti mismo” - “sé lo que tú eres”. Santiago Insua. Septiembre 2016."
+  },
+  {
+    "id": 58,
+    "name": "Silvina Andrea Vidal",
+    "title": "",
+    "bio": "Mi nombre es Silvina Vidal, oriunda de Avellaneda, provincia de Buenos Aires. Soy Profesora para la Enseñanza Primaria. Trabajo como docente desde 1997, he recorrido diversas instituciones educativas desempeñándome como maestra en los distintos grados del nivel primario a lo largo de estos años. Desde el 2012 estoy a cargo de la dirección de la Escuela de Educación Primaria N°24 del partido de Avellaneda. En ese andar, un día descubrí que enseñar Ciencias Naturales podía ser apasionante, que con una simple vuelta de tuerca lo monótono se convertía en mágico y que, por sobre todo, los alumnos aprendían y disfrutaban de las clases de ciencias, motivo por el cual decidí especializarme en la enseñanza de las Ciencias Naturales. En el año 2015, me sumé al equipo de tutores en Módulo Enseñar Ciencias Naturales con TIC de la Especialización Docente en Educación Primaria y TIC perteneciente al INFD."
+  },
+  {
+    "id": 59,
+    "name": "Soledad Olaciregui",
+    "title": "",
+    "bio": "Soledad Olaciregui (Ciudad de Buenos Aires, 1976). Soy Profesora en Letras de la UBA y Técnica en Periodismo de la UCA como carreras de base, pero a lo largo de toda mi trayectoria continué capacitándome en todas las áreas en las que me desempeñé laboralmente porque soy naturalmente curiosa. Tengo un Diploma Superior en Educación y Tecnología de Flacso y actualmente estoy cursando la Especialización. Empecé a trabajar a los 18 años y desde ese momento y hasta los 25 años pasé por muchos tipos de trabajos diferentes. Las ganas y la imposibilidad de viajar me llevaron a buscar una manera de encontrarme con otras culturas sin salir de mi país: como profesora de español para extranjeros. Durante 10 años trabajé para embajadas, universidades extranjeras y de forma independiente, incluso inicié mi propio emprendimiento de turismo cultural. Para mejorar mis clases de español comencé a realizar cursos enfocados en la inclusión de la tecnología y descubrí un mundo de posibilidades educativas en las TIC que me deslumbró. Al mismo tiempo, observé que estas herramientas tan potentes no estaban presentes en la educación tradicional y que la falta de educación en el uso correcto de la tecnología era un potencial riesgo para acrecentar las brechas ya existentes: la educativa, la generacional, la social. Por este motivo, viré completamente mi trayectoria laboral y me dediqué de lleno a pensar proyectos educativos con TIC que pudieran lograr inclusión socio-educativa. Trabajé durante 4 años en la Fundación Grupo Educativo María de Guadalupe dando inicio al colegio primario y en 2015 al secundario con un fuerte foco en el uso de tecnologías móviles y la inclusión del pensamiento computacional en todas las materias desde primer grado de la escuela primaria. Realicé de forma independiente otros proyectos como capacitadora en Pensamiento Computacional y Programación, y diseñé, implementé y doy seguimiento a un espacio educativo basado en la metodología SOLE de Sugata Mitra para 12 niños que viven en una estancia de Pérez Companc. Actualmente me encuentro en la Coordinación de Formación de GO InTec (Gerencia de Operaciones de Inclusión Tecnológica) del Ministerio de Educación del Gobierno de la Ciudad."
+  },
+  {
+    "id": 60,
+    "name": "Tadeo Castro Videla",
+    "title": "",
+    "bio": "Analista de Sistemas, administro la infraestructura de acceso a Internet de un Banco. Formo parte de un grupo de familias creando un espacio de educación integral y activa basado en el respeto de las etapas infantiles de desarrollo y el aprendizaje autónomo en un ambiente preparado y no graduado. En la búsqueda permanente de conocerme y conocer el mundo. Creo que todos debemos involucrarnos para contribuir a hacer del conocimiento un asunto colectivo, y del aprendizaje algo compartido."
+  },
+  {
+    "id": 61,
+    "name": "Vera Rexach",
+    "title": "",
+    "bio": "Soy una educadora que se enamoró de las tecnologías digitales, enfocada en la formación docente y el trabajo en equipos físicamente dispersos. Participo en proyectos de cooperación internacional para la integración de las TIC y la cultura digital en sistemas educativos de países de la región y también trabajo en el entorno cercano, desde la OEI, en el área de TIC y Educación, y desde Virtual Educa, en la Maestría en EVA. Soy inquieta, levemente irreverente, tuitera, siempre funciono mejor en grupo. Call me Vera Rex😉"
+  },
+  {
+    "id": 62,
+    "name": "Verónica Poenitz",
+    "title": "",
+    "bio": "Maestranda en Administración de la Educación, Universidad Torcuato Di Tella. Especialista en Gestión y Conducción del Sistema Educativo y sus Instituciones, FLACSO. Licenciada y Profesora en Ciencias de la Educación, Universidad de San Andrés. Coordinadora del Programa de Servicios Educativos de la Universidad Católica Argentina. Se desempeña también en la Dirección de Planeamiento Educativo del Ministerio de Educación de CABA."
+  },
+  {
+    "id": 63,
+    "name": "Verónica Seara",
+    "title": "",
+    "bio": "Soy Verónica Seara, crecí en Tapiales un barrio del partido de La Matanza, explorando lagunas, recorriendo el barrio en bicicleta con la banda de amigos e inventando juegos para matar horas de la siesta. De ahí en adelante el juego, la alegría de estar al aire libre, la creación con otros de juegos e historias y la curiosidad son mis compañeros de ruta. Este deseo siguió y se desplegó a lo largo de 17 años en el aula de escuelas primarias. Luego me fue llevando a otros escenarios como la capacitación docente, la enseñanza universitaria y espacios no formales. Como el movimiento se demuestra andando… seguí caminando dentro del equipo de Expedición Ciencia en donde el juego, la naturaleza y la curiosidad se potencian en campamentos científicos con adolescentes de todo el país. El recorrido sigue por proyectos comunitarios en Crisol Proyectos Sociales amplió mi campo de acción educativa en donde las dinámicas lúdico expresivas son una de las estrategias privilegiadas en la intervención. Espacios de creación colectiva y colaborativa en los que la búsqueda de alternativas de acción/reflexión habiliten oportunidades, incluyan y amplíen los horizontes posibles a cada uno de los ciudadanos de nuestro país son los que me convocan en este momento."
+  },
+  {
+    "id": "",
+    "name": "",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "id": 64,
+    "name": "Alejandra Cardini",
+    "title": "",
+    "bio": "Co-directora del Programa de Educación de CIPPEC. Licenciada en sociología (Universidad de Buenos Aires) y profesora de nivel primario. Se especializó en políticas educativas con maestría en la Universidad de Londres. Es doctoranda en educación de la Universidad de San Andrés (tesis entregada). Estuvo a cargo de diferentes proyectos vinculados al análisis, asesoramiento e incidencia en política educativa, en Argentina y el exterior. Desarrolló trabajos de investigación en la Universidad de Buenos Aires, en la Universidad de San Andrés, en el Centre for Critical Education Policy Research (Universidad de Londres) y en el British Council. Trabajó también para el Ministerio de Educación Nacional, en relación con los ministerios provinciales. Como docente, se desempeñó en el nivel primario y fue profesora ayudante en las maestrías de la política educativa del Instituto de Educación de la Universidad de Londres y en la Universidad Alberto Hurtado (Santiago de Chile). Actualmente dicta clases de Política Educativa en la Universidad de San Andrés, en el Doctorado Interinstitucional en Educación (UNTREF, UNLA, UNSAM) y en la Escuela de Política y Gobierno de la Universidad Austral."
+  },
+  {
+    "id": 65,
+    "name": "Belén Sánchez",
+    "title": "",
+    "bio": "Coordinadora del Programa de Educación de CIPPEC. Maestranda en Educación y Desarrollo Internacional, Instituto de Educación, University College London (Reino Unido). Licenciada y Profesora en Ciencias de la Educación, Universidad de San Andrés. Es profesora del Curso de Preparación Universitaria del Instituto de Altos Estudios Sociales y la Escuela de Política y Gobierno de la Universidad Nacional de San Martín y profesora asistente de cursos de política educativa en la Universidad de San Andrés y la Universidad Pedagógica de Buenos Aires. Fue consultora de la Dirección Nacional de Información y Evaluación de la Calidad Educativa."
+  },
+  {
+    "id": 66,
+    "name": "Paula Coto",
+    "title": "",
+    "bio": "Coordinadora de proyectos del Programa de Educación de CIPPEC. Licenciada en Sociología orientada en Educación, Universidad de Buenos Aires. Estudiante de Maestría en Educación, Universidad de San Andrés. Es formadora y acompañante de Comunidades de Aprendizaje. Fue coordinadora del portal educativo Las 400 clases, consultora del proyecto Gestión Escolar para la Mejora de los Aprendizajes desarrollado por UNICEF - Asociación Civil Estrategias Educativas y ayudante de investigación en elCEIL-CONICET."
+  },
+  {
+    "id": 67,
+    "name": "Fernando André",
+    "title": "",
+    "bio": "Coordinador del EduLab CIPPEC. Consultor en Educación. Maestrando en Ciencia Tecnología y Sociedad, Universidad Nacional de Quilmes. Diplomado en Educación y Tecnología en FLACSO. Licenciado y Profesor en Ciencias de la Educación, Universidad de San Andrés. Coordinador del Programa Campus Virtual de la Universidad de San Andrés. Profesor asistente de las materias Educación y Tecnología; Sociología de la educación; y Educación Comparada de la Universidad de San Andrés."
+  },
+  {
+    "id": 68,
+    "name": "Lucas Delgado",
+    "title": "",
+    "bio": "Especialista en Educación, Comunicación y Tecnología del EduLab CIPPEC. Periodista. Director de Sobre Tiza, diario online sobre innovación e inclusión digital educativa. Estudiante de Ciencias de la Comunicación Social con Orientación en Comunicación y Procesos Educativos."
+  },
+  {
+    "id": 69,
+    "name": "Margarita Olivera",
+    "title": "",
+    "bio": "Analista del Programa de Educación de CIPPEC. Licenciada (tesis en curso) y Profesora en Ciencias de la Educación (Universidad de San Andrés). Es formadora y acompañante de Comunidades de Aprendizaje. También coordina el espacio de Aprendizaje y Servicio del Colegio María de Guadalupe. Se desempeñó como docente en el nivel secundario y fue coordinadora de \"Nuevas Puertas\", proyecto de alfabetización de adultos. En el campo académico, participó como ayudante de  investigación en la Universidad de San Andrés."
+  },
+  {
+    "id": 70,
+    "name": "Renata Grinfeld",
+    "title": "",
+    "bio": "Coordinadora del Proyecto Comunidades de Aprendizaje en CIPPEC. Licenciada en Psicología y Pedagogía. Magíster en Psicología Educacional (UBA). Después de pasar por algunas escuelas como maestra y coordinadora, fue ampliando su actuación en programas de formación docente hasta llegar al Instituto Natura, en donde fue formadora del proyecto Comunidades de Aprendizaje en Brasil. Después de un año, empezó a apoyar a otros cinco países en la implementación de este proyecto."
+  },
+  {
+    "id": 71,
+    "name": "Christian Milillo",
+    "title": "",
+    "bio": "Desarrollador web enfocado en la educación en línea, portales, redes sociales, comunidades de práctica, eventos masivos en línea y sitios institucionales. Coordinador general y responsable de desarrollos tecnológicos del Proyecto Educación y Nuevas Tecnologías de FLACSO Argentina. Integró el equipo de desarrollo tecnológico en iniciativas de Flacso Argentina, OEA, IIPE Unesco Buenos Aires, Wikimedia Argentina, entre otras instituciones."
+  },
+  {
+    "id": 72,
+    "name": "Cristián Rizzi",
+    "title": "",
+    "bio": "Es consultor del EduLab CIPPEC. Licenciado en Ciencias Químicas pero casi toda su vida laboral se desarrolló en el ámbito de las TIC y la educación. Se dedica a la capacitación docente y gestión de proyectos, investigación y traducción, adaptación y desarrollo de materiales didácticos."
+  },
+  {
+    "id": 73,
+    "name": "Macarena Feijoó",
+    "title": "",
+    "bio": "Asistente del Programa de Educación de CIPPEC. Licenciada y Profesora en Ciencias de la Educación, Universidad de San Andrés. Coordinadora del portal educativo Las 400 clases."
+  },
+  {
+    "id": 74,
+    "name": "Valentín Fernández Shanahan",
+    "title": "",
+    "bio": "Asistente del Programa de Educación de CIPPEC. Estudiante de la Licenciatura en Ciencias de la Educación de la Universidad de San Andrés. Actualmente está escribiendo su tesis sobre innovaciones educativas digitales."
+  },
+  {
+    "id": "",
+    "name": "",
+    "title": "",
+    "bio": ""
+  },
+  {
+    "id": 75,
+    "name": "Axel Rivas",
+    "title": "",
+    "bio": "Co-director del Programa de Educación de CIPPEC. Profesor de la Universidad Pedagógica de Buenos Aires, Universidad de San Andrés (UdeSA), Universidad Torcuato Di Tella (UTDT) y FLACSO-Argentina. Autor de diez libros, entre ellos: “Revivir las aulas”, “Viajes al futuro de la educación” y “América Latina después de PISA. Lecciones aprendidas de la educación en siete países (2000-2015)”. Doctor en Ciencias Sociales, UBA, Argentina. Master en Ciencias Sociales y Educación, FLACSO. Realizó estudios doctorales en el Instituto de Educación de la Universidad de Londres."
+  },
+  {
+    "id": 76,
+    "name": "Melina Furman",
+    "title": "",
+    "bio": "Profesora de la Escuela de Educación de la Universidad de San Andrés e Investigadora del CONICET. Es Bióloga por la Universidad de Buenos Aires y Master y Ph.D. en Educación por Columbia University, Estados Unidos. Investiga sobre la enseñanza de las Ciencias Naturales, desde el nivel inicial hasta la universidad. Es autora entre otros libros de \"La aventura de enseñar Ciencias Naturales\" (Aique) y \"La ciencia en el aula\" (Paidós). Fundó Expedición Ciencia y condujo el programa \"La casa de la Ciencia\", para el canal PakaPaka. Es cofundadora de El Mundo de las Ideas, curso sobre creatividad e innovación, e integrante del equipo organizador de TEDxRíodelaPlata."
+  }
 ]
