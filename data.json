@@ -1,0 +1,20 @@
+[
+    {
+      "id": "1",
+      "name": "carlos",
+      "title": "programador",
+      "bio" : "sasarasa"
+    },
+    {
+      "id": "2",
+      "name" : "juana",
+      "title" : "doctora",
+      "bio" : "aquí y allá tal cosa y tal otra"
+    },
+    {
+      "id": "3",
+      "name": "carlitos",
+      "title": "vago",
+      "bio": "nada por aquínada por allá"
+    }
+]
