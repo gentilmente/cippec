@@ -38,8 +38,6 @@
             <small>Poniéndole el pecho al aburrimiento escolar</small></h1>
     </div>
     <div class="row active-with-click">
-
-
         <div class="col-md-4 col-sm-6 col-xs-12">
             <article class="material-card Red">
                 <h2>
@@ -52,7 +50,8 @@
                   <div class="img-container">
                       <img class="img-responsive id@src" src='#'>
                   </div>
-                  <div class="mc-description"></div>
+                  <div class="mc-description">
+                  </div>
                 </div>
                 <a class="mc-btn-action">
                   <i class="fa fa-bars"></i>
@@ -74,7 +73,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pure.js/2.83/pure.min.js"></script>
-
 <script>
     $(function() {
         $('.material-card > .mc-btn-action').click(function () {
@@ -100,14 +98,12 @@
                         .removeClass('fa-bars')
                         .removeClass('fa-spin-fast')
                         .addClass('fa-arrow-left');
-
                 }, 800);
             }
         });
     });
 </script>
 <script>
-
   var data = (function () {
       var json = null;
       $.ajax({
@@ -123,7 +119,7 @@
   })();
 
    var directive = {
-    'article':{
+    '.col-md-4':{
       'article<-':{
         'span': 'article.name' ,
         'strong': 'article.title',
@@ -133,7 +129,7 @@
     }
   };
 
-  $p( '.col-md-4' ).render( data, directive );
+  $p( '.row' ).render( data, directive );
 </script>
 </body>
 </html>
