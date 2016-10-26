@@ -38,17 +38,20 @@
         <small>Poniéndole el pecho al aburrimiento escolar</small>
       </h1>
       <div class="button-group cards">
-        <button class="filter is-checked" data-filter="*">todos</button>
-        <button class="filter" data-filter=".1">1</button>
-        <button class="filter" data-filter=".2">2</button>
-        <button class="filter" data-filter=".3">3</button>
-        <button class="filter" data-filter=".4">4</button>
-        <button class="filter" data-filter=".5">5</button>
-        <button class="filter" data-filter=".6">6</button>
-        <button class="filter" data-filter=".7">7</button>
+        <button id="[1-9]">todos</button>
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="7">7</button>
+        <button id="7">8</button>
+        <button id="7">9</button>
       </div>
     </div>
     <div class="row active-with-click">
+
       <div class="col-md-4 col-sm-6 col-xs-12">
         <article class="material-card Red">
           <h2>
@@ -84,75 +87,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pure.js/2.83/pure.min.js"></script>
-  <script>
-  $(function() {
-    $('.material-card > .mc-btn-action').click(function () {
-      var card = $(this).parent('.material-card');
-      var icon = $(this).children('i');
-      icon.addClass('fa-spin-fast');
+  <script src="js/filter.js"></script>
 
-      if (card.hasClass('mc-active')) {
-        card.removeClass('mc-active');
-
-        window.setTimeout(function() {
-          icon
-          .removeClass('fa-arrow-left')
-          .removeClass('fa-spin-fast')
-          .addClass('fa-bars');
-
-        }, 800);
-      } else {
-        card.addClass('mc-active');
-
-        window.setTimeout(function() {
-          icon
-          .removeClass('fa-bars')
-          .removeClass('fa-spin-fast')
-          .addClass('fa-arrow-left');
-        }, 800);
-      }
-    });
-  });
-  </script>
-  <script>
-  var data = (function () {
-    var json = null;
-    $.ajax({
-      'async': false,
-      'global': false,
-      'url': "./data.json",
-      'dataType': "json",
-      'success': function (data) {
-        json = data;
-      }
-    });
-    return json;
-  })();
-
-  var directive = {
-    '.col-md-4':{
-      'user<-':{
-        '.@class': "col-md-4 col-sm-6 col-xs-12 " + '#{user.team}',
-        'span': 'user.name' ,
-        'strong': 'user.title',
-        '.mc-description' : 'user.bio',
-        'img@src': "img/" + "#{user.id}" + ".jpg"
-      },
-      // at the same level of the <- loop declaration
-      // use the keyword: filter
-      filter:function(a){
-
-      // if the name starts with "a" or "A", keep it, returns true
-      // otherwise, skip it, return false
-
-      //return ( /^7/i ).test( a.item.team );
-      return ( /^a/i ).test( a.item.name );
-
-      }
-    }
-  };
-
-  $p( '.row' ).render( data, directive );
-  </script>
 </body>
 </html>
