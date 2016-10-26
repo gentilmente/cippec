@@ -10,6 +10,7 @@ and replace data.json in the root of this repo.
 
 that's all
 
+[Working demo on Codepen.io](http://codepen.io/gentilmente/pen/mAgLYE)
 
 credits:
 <h1>PURE Unobtrusive Rendering Engine</h1>
