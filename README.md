@@ -2,7 +2,7 @@ This project uses two technologies, Material Cards from marlenesco and Pure.js f
 Having all participants from an event and their teams, you can filter them by team.
 You need a data.json file.
 
-Maybe you have a [![See full preview][Google form, with this layout](https://dl.dropboxusercontent.com/u/2210671/imagenes%20para%20compartir%20web/layout.png)]
+Maybe you have a Google form, with this layout[![See full preview](https://dl.dropboxusercontent.com/u/2210671/imagenes%20para%20compartir%20web/layout.png)](https://drive.google.com/open?id=1hhiCDXJfnVxmp14R2EKQopBfPH-3HSv8eA8AmINK-wU)
 
 Downloaded as .csv
 Converted to .json http://www.csvjson.com/csv2json
