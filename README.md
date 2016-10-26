@@ -1,3 +1,16 @@
+This project uses two technologies, Material Cards from marlenesco and Pure.js from Michael Cvilic.
+Having all participants from an event and their teams, you can filter them by team.
+You need a data.json file.
+
+Maybe you have a [Google form, with this layout](https://dl.dropboxusercontent.com/u/2210671/imagenes%20para%20compartir%20web/layout.png)
+Downloaded as .csv
+Converted to .json http://www.csvjson.com/csv2json
+and replace data.json in the root of this repo.
+
+that's all
+
+
+credits:
 Material Cards [![CodeHunt.io](https://img.shields.io/badge/vote-codehunt.io-02AFD1.svg)](http://codehunt.io/sub/responsive-material-card/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)   
 ==============
 Simple user card based on [Google Material Color palette](https://www.google.com/design/spec/style/color.html#color-color-palette) and jQuery.
@@ -12,7 +25,7 @@ Less files
     gm-variables.less
     mixin.less
     material-color.less
- 
+
 > `material-cards.less` is the main `.less` file that includes the other .less files.  
 > `gm-variables.less` contains all the [color palette](https://www.google.com/design/spec/style/color.html#color-color-palette) with the color accent.  
 > `mixin.less` contains some utilities.  
@@ -23,7 +36,7 @@ Installation
 You can download full package and check the **demo** folder for implementation example or you can use **bower**:
 
     bower install material-cards
-    
+
 Demo files require [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 
 Usage
@@ -62,7 +75,7 @@ The default **card_activator** is the **click** event on button card, but you ca
 ```javascript
 $('.material-card').materialCard('toggle');
 ```
-    
+
 `open`: open selected material card
 
 ```javascript
@@ -74,7 +87,7 @@ $('.material-card:eq(1)').materialCard('open');
 ```javascript
 $('.material-card:eq(2)').materialCard('close');
 ```
-   
+
 `isOpen`: check material card status, return **true** or **false**
 
 ```javascript

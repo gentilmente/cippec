@@ -6,17 +6,14 @@ $(function() {
 
     if (card.hasClass('mc-active')) {
       card.removeClass('mc-active');
-
       window.setTimeout(function() {
         icon
         .removeClass('fa-arrow-left')
         .removeClass('fa-spin-fast')
         .addClass('fa-bars');
-
       }, 800);
     } else {
       card.addClass('mc-active');
-
       window.setTimeout(function() {
         icon
         .removeClass('fa-bars')
@@ -28,12 +25,11 @@ $(function() {
 });
 
 var team = /[1-9]/i;
-var cards = document.querySelector(".cards");
-cards.addEventListener("click", function(e)
+var teams = document.querySelector(".teams");
+teams.addEventListener("click", function(e)
 {
   team = RegExp(e.target.id, "i");
   $p( '.row' ).render( data, compiled );
-  console.log(team);
 });
 
 var data = (function () {
@@ -53,7 +49,6 @@ var data = (function () {
 var directive = {
   '.col-md-4':{
     'user<-':{
-      '.@class': "col-md-4 col-sm-6 col-xs-12 " + '#{user.team}',
       'span': 'user.name' ,
       'strong': 'user.title',
       '.mc-description' : 'user.bio',
@@ -61,7 +56,6 @@ var directive = {
     },
     filter:function(a){
       return ( team ).test( a.item.team );
-      //return ( /^a/i ).test( a.item.name );
     }
   }
 };
