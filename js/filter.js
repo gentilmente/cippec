@@ -1,5 +1,5 @@
 $(function() {
-  $('.material-card > .mc-btn-action').click(function () {
+  $('.container').on('click', '.material-card > .mc-btn-action', function () {
     var card = $(this).parent('.material-card');
     var icon = $(this).children('i');
     icon.addClass('fa-spin-fast');
@@ -24,7 +24,7 @@ $(function() {
   });
 });
 
-var team = /[1-9]/i;
+var team = /[1-11]/i;
 var teams = document.querySelector(".teams");
 teams.addEventListener("click", function(e)
 {
