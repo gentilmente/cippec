@@ -23,14 +23,22 @@ $(function() {
     }
   });
 });
-
-var team = /[1-11]/i;
+var isName = false;
+var team = /(10|11|[0-9])/;
 var teams = document.querySelector(".teams");
 teams.addEventListener("click", function(e)
 {
   team = RegExp(e.target.id, "i");
+  isName = false;
   $p( '.row' ).render( data, compiled );
 });
+
+var byName = /[A-Z]/i;
+function search(){
+  byName = RegExp(document.getElementById("search").value,"i");
+  isName = true;
+  $p( '.row' ).render( data, compiled );
+};
 
 var data = (function () {
   var json = null;
@@ -55,7 +63,12 @@ var directive = {
       'img@src': "img/" + "#{user.id}" + ".jpg"
     },
     filter:function(a){
-      return ( team ).test( a.item.team );
+      if (isName){
+        return (byName).test( a.item.name );
+      }
+      else{
+        return (team).test(a.item.team);
+      }
     }
   }
 };
