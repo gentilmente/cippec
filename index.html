@@ -37,21 +37,30 @@
       <h1>Innovadores Educativos CIPPEC<br>
         <small>Poniéndole el pecho al aburrimiento escolar</small>
       </h1>
-      <div class="button-group teams">
-        <button id="[1-9]">todos</button>
-        <button id="1">grupo 1</button>
-        <button id="2">grupo 2</button>
-        <button id="3">grupo 3</button>
-        <button id="4">grupo 4</button>
-        <button id="5">grupo 5</button>
-        <button id="6">grupo 6</button>
-        <button id="7">grupo 7</button>
-        <button id="8">grupo 8</button>
-        <button id="9">grupo 9</button>
-        <button id="10">Edulab</button>
-        <button id="11">Coordinadores</button>
+      <div class="dropdown">
+        <input id="search" placeholder="buscar por nombre" oninput="search()"/>
+
+        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
+          grupos
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu teams">
+          <li><a id="(10|11|[0-9])" >Todos</a></li>
+          <li><a id="1" >grupo 1</a></li>
+          <li><a id="2" >grupo 2</a></li>
+          <li><a id="3" >grupo 3</a></li>
+          <li><a id="4" >grupo 4</a></li>
+          <li><a id="5" >grupo 5</a></li>
+          <li><a id="6" >grupo 6</a></li>
+          <li><a id="7" >grupo 7</a></li>
+          <li><a id="8" >grupo 8</a></li>
+          <li><a id="9" >grupo 9</a></li>
+          <li><a id="10">grupo Edulab</a></li>
+          <li><a id="11">grupo Coordinadores</a></li>
+        </ul>
       </div>
     </div>
+
     <div class="row active-with-click">
 
       <div class="col-md-4 col-sm-6 col-xs-12">
@@ -87,8 +96,10 @@
     </div>
   </section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pure.js/2.83/pure.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/filter.js"></script>
 
 </body>
