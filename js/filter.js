@@ -25,6 +25,7 @@ $(function() {
 });
 var optionSelected = null;
 var team = /(10|11|[0-9])/;
+var team2 = null;
 var teams = document.querySelector(".teams");
 teams.addEventListener("click", function(e)
 {
@@ -33,13 +34,13 @@ teams.addEventListener("click", function(e)
   $p( '.row' ).render( data, compiled );
 });
 
-// var teams2 = document.querySelector(".teams2");
-// teams2.addEventListener("click", function(e)
-// {
-//   team = RegExp(e.target.id, "i");
-//   optionSelected = "2";
-//   $p( '.row' ).render( data, compiled );
-// });
+var teams2 = document.querySelector(".teams2");
+teams2.addEventListener("click", function(e)
+{
+  team2 = RegExp(e.target.id, "i");
+  optionSelected = "byTeam2";
+  $p( '.row' ).render( data, compiled );
+});
 
 var byName = /[A-Z]/i;
 function search(){
@@ -78,7 +79,7 @@ var directive = {
       break;
       case "byTeam1": retVal = (team).test(a.item.team);
       break;
-      case "byTeam2": retVal = (team).test(a.item.team);
+      case "byTeam2": retVal = (team2).test(a.item.team2);
       break;
       default: retVal = (team).test(a.item.team);
     }
