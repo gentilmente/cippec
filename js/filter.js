@@ -23,20 +23,28 @@ $(function() {
     }
   });
 });
-var isName = false;
+var optionSelected = null;
 var team = /(10|11|[0-9])/;
 var teams = document.querySelector(".teams");
 teams.addEventListener("click", function(e)
 {
   team = RegExp(e.target.id, "i");
-  isName = false;
+  optionSelected = "byTeam1";
   $p( '.row' ).render( data, compiled );
 });
+
+// var teams2 = document.querySelector(".teams2");
+// teams2.addEventListener("click", function(e)
+// {
+//   team = RegExp(e.target.id, "i");
+//   optionSelected = "2";
+//   $p( '.row' ).render( data, compiled );
+// });
 
 var byName = /[A-Z]/i;
 function search(){
   byName = RegExp(document.getElementById("search").value,"i");
-  isName = true;
+  optionSelected = "byName";
   $p( '.row' ).render( data, compiled );
 };
 
@@ -63,12 +71,18 @@ var directive = {
       'img@src': "img/" + "#{user.id}" + ".jpg"
     },
     filter:function(a){
-      if (isName){
-        return (byName).test( a.item.name );
-      }
-      else{
-        return (team).test(a.item.team);
-      }
+
+    var retVal = null;
+    switch (optionSelected){
+      case "byName": retVal = (byName).test( a.item.name );
+      break;
+      case "byTeam1": retVal = (team).test(a.item.team);
+      break;
+      case "byTeam2": retVal = (team).test(a.item.team);
+      break;
+      default: retVal = (team).test(a.item.team);
+    }
+    return retVal;
     }
   }
 };
