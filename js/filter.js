@@ -69,7 +69,11 @@ var directive = {
       'span': 'user.name' ,
       'strong': 'user.title',
       '.mc-description' : 'user.bio',
-      'img@src': "img/" + "#{user.id}" + ".jpg"
+      'img@src': "img/" + "#{user.id}" + ".jpg",
+      '.fa-facebook@href': 'user.facebook',
+      '.fa-twitter@href': 'user.twitter',
+      '.fa-linkedin@href': 'user.linkedin',
+      '.fa-at@href+': "#{user.email}" + "?subject=Mail desde el curso de CIPPEC&body=Hola%20"+"#{user.name}"+",%20te%20contacto%20por%20lo%20siguiente..."
     },
     filter:function(a){
 
