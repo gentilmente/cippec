@@ -24,12 +24,12 @@ $(function() {
   });
 });
 var optionSelected = null;
-var team = /(10|11|[0-9])/;
+var team = /[\d++]/;
 var team2 = null;
 var teams = document.querySelector(".teams");
 teams.addEventListener("click", function(e)
 {
-  team = RegExp(e.target.id, "i");
+  team = RegExp("^" + e.target.id + "$");
   optionSelected = "byTeam1";
   $p( '.row' ).render( data, compiled );
 });
@@ -37,7 +37,7 @@ teams.addEventListener("click", function(e)
 var teams2 = document.querySelector(".teams2");
 teams2.addEventListener("click", function(e)
 {
-  team2 = RegExp(e.target.id, "i");
+  team2 = RegExp("^" + e.target.id + "$");
   optionSelected = "byTeam2";
   $p( '.row' ).render( data, compiled );
 });
