@@ -23,6 +23,11 @@ $(function() {
     }
   });
 });
+var cssColors = ['Red', 'Pink', 'Purple', 'Deep-Purple', 'Indigo', 'Blue',
+'Light-Blue', 'Cyan', 'Teal', 'Green', 'Light-Green',
+'Lime', 'Yellow', 'Amber', 'Orange', 'Deep-Orange', 'Brown',
+'Grey', 'Blue-Grey'];
+var rand = cssColors[Math.floor(Math.random() * cssColors.length)]
 var optionSelected = null;
 var team = /[\d++]/;
 var team2 = null;
@@ -66,8 +71,9 @@ var data = (function () {
 var directive = {
   '.col-md-4':{
     'user<-':{
+      'article@class+' : ' #{user.color}',
       'span': 'user.name' ,
-      'strong': 'user.title',
+      'strong': 'user.title',// + "<i class="fa fa-fw fa-star"></i>",
       '.mc-description' : 'user.bio',
       'img@src': "img/" + "#{user.id}" + ".jpg",
       '.fa-facebook@href': 'user.facebook',
