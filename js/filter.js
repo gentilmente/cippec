@@ -85,7 +85,7 @@ var directive = {
       break;
       case "byTeam2": retVal = (team2).test(a.item.team2);
       break;
-      default: retVal = (team).test(a.item.team);
+      default: retVal = (byName).test( a.item.name );
     }
     return retVal;
     }
