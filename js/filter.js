@@ -71,7 +71,7 @@ var data = (function () {
 var directive = {
   '.col-md-4':{
     'user<-':{
-      'article@class+' : ' #{user.color}',
+      'article@class+' : function(){return " " + cssColors[Math.floor(Math.random() * cssColors.length)];},
       'span': 'user.name' ,
       'strong': 'user.title',// + "<i class="fa fa-fw fa-star"></i>",
       '.mc-description' : 'user.bio',
